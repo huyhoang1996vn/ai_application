@@ -106,7 +106,6 @@ llm = ChatGoogleGenerativeAI(
 
 
 # https://alejandro-ao.com/how-to-use-streaming-in-langchain-and-streamlit/#what-is-lcel
-# app config
 st.set_page_config(page_title="Steve's Assitant", page_icon="🤖")
 st.title("Steve's Assitant")
 st.logo("avatar.jpg")
