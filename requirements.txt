@@ -1,3 +1,9 @@
 fastapi[standard]
 uvicorn
 openai
+pymongo
+pandas
+python-dotenv
+semantic-router
+langchain_community
+beautifulsoup4
