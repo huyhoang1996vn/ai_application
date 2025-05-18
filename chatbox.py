@@ -235,8 +235,8 @@ def get_response(user_query, chat_history, session_id):
         template = """
         You are assisstant, answer: {user_question}
         """
-        # chat_model = llm
-        chat_model = ChatHuggingFace(llm=llm)
+        chat_model = llm
+        # chat_model = ChatHuggingFace(llm=llm)
         prompt = ChatPromptTemplate.from_messages(
             [
                 ("system", "You are an AI chatbot having a conversation with a human."),
