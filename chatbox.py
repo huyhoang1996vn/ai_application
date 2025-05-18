@@ -126,15 +126,15 @@ llm = ChatGoogleGenerativeAI(
 
 # Function to get memory (e.g., per session or user)
 # chats_by_session_id = {}
-import redis
+# import redis
 import json
-from langchain_redis import RedisChatMessageHistory
+# from langchain_redis import RedisChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 
 # r = redis.Redis(host='localhost', port=6379, db=0)
-REDIS_URL = "redis://localhost:6379"
-def get_redis_history(session_id: str):
-    return RedisChatMessageHistory(session_id, redis_url=REDIS_URL)
+# REDIS_URL = "redis://localhost:6379"
+# def get_redis_history(session_id: str):
+#     return RedisChatMessageHistory(session_id, redis_url=REDIS_URL)
 
 
 # https://alejandro-ao.com/how-to-use-streaming-in-langchain-and-streamlit/#what-is-lcel

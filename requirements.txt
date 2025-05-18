@@ -7,3 +7,8 @@ python-dotenv
 semantic-router
 langchain_community
 beautifulsoup4
+streamlit
+langchain_openai
+langchain_google_genai
+langchain_huggingface
+redis
